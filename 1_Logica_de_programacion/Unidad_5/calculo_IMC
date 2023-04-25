@@ -1,0 +1,32 @@
+ <meta charset="UTF-8">
+<h3>Cálculo de IMC</h3>
+<p> ¿Cuántos años de diferencia tienes con tu hermano?</p>
+<script>
+    <!-- Definición variables -->
+    var peso_Chris=71;<!-- Peso en kg -->
+    var altura_Chris=1.72;<!-- Altura en m -->
+    var peso_Felipe=75;<!-- Peso en kg -->
+    var altura_Felipe=1.73;<!-- Altura en m -->
+
+    <!-- Definición funciones -->
+        function saltolinea(){
+        document.write("<br>");
+        document.write("<br>");
+        document.write("<br>");
+    }
+        function imprimir(frase){
+        document.write(frase);
+        saltolinea();
+    }
+        <!-- Cálculo IMC-->
+         function calcularIMC(peso,altura,nombre){
+        IMC=(peso)/(altura*altura)
+        imprimir("El IMC calculado de "+nombre+" es "+IMC);
+    }
+    <!-- Impresión en HTML con función -->
+    calcularIMC(peso_Chris,altura_Chris, "Christian")
+    calcularIMC(peso_Felipe,altura_Felipe, "Felipe");
+
+
+
+</script>
