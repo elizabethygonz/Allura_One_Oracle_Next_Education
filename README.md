@@ -7,7 +7,7 @@ This Specialization introduces fundamental programming concepts for JavaScript a
 
 Courses:
 
-1. [Logica de Programacion](https://github.com/elizabethygonz/Allura_One_Oracle_Next_Education/tree/main/1_Logica_de_programacion)
+1. [Logica de Programación](https://github.com/elizabethygonz/Allura_One_Oracle_Next_Education/tree/main/1_Logica_de_programacion)
 
 
 In this repository you'll find answers and code explained for each assigment in the course.
