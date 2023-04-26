@@ -7,8 +7,8 @@ Esta especialización presenta conceptos fundamentales de programación para Jav
 
 Cursos:
 
-1. [Logica de Programación](https://github.com/elizabethygonz/Allura_One_Oracle_Next_Education/tree/main/1_Logica_de_programacion)
-
+1. [Logica de Programación:Primeros Pasos](https://github.com/elizabethygonz/Allura_One_Oracle_Next_Education/tree/main/1_Logica_de_programacion)
+1. [Logica de Programación:Conceptos Primordiales](https://github.com/elizabethygonz/Allura_One_Oracle_Next_Education/tree/main/2_Logica_de_Programacion_Conceptos_Primordiales)
 
 En este repositorio encontrarás respuestas y código explicado para cada tarea del curso.
 
