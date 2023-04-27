@@ -1,0 +1,29 @@
+<meta charset="UTF-8">
+<script>
+//Definición funciones
+    function saltoLinea() {
+
+        document.write("<br>"); 
+        document.write("<br>"); 
+        document.write("<br>"); 
+
+    }  
+
+    function imprimir(frase) {
+
+        document.write(frase);
+        saltoLinea();
+
+    }
+
+//Definición variables
+    var contador = 2;
+
+// Condición while para imprimir todos los numeros pares
+//Se suma de dos en dos
+    while(contador <= 100) {
+        imprimir(contador);
+        contador = contador + 2; 
+    }
+    imprimir("FIN");
+</script>
