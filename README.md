@@ -11,11 +11,13 @@ Cursos de Lógica de Programación:
 3. [Logica de Programación:Practicando con juegos y animaciones](https://github.com/elizabethygonz/Allura_One_Oracle_Next_Education/tree/main/3_Lógica_de_programación_Practicando_con_juegos_y_animaciones)
 
 
-#Cursos de HTML y CSS:
+Cursos de HTML y CSS:
 
 En este repositorio encontrarás respuestas y código explicado para cada tarea del curso.
-
-
+3. [HTML5 y CSS3 parte 1: Mi primera página web](https://github.com/elizabethygonz/Allura_One_Oracle_Next_Education/tree/main/1_Logica_de_programacion)
+4. [HTML5 y CSS3 parte 2: Posicionamiento, listas y navegación](https://github.com/elizabethygonz/Allura_One_Oracle_Next_Education/tree/main/2_Logica_de_Programacion_Conceptos_Primordiales)
+5. [HTML5 y CSS3 parte 3: Trabajando con formularios y tablas](https://github.com/elizabethygonz/Allura_One_Oracle_Next_Education/tree/main/3_Lógica_de_programación_Practicando_con_juegos_y_animaciones)
+6. [HTML5 y CSS3 parte 4: Avanzando en CSS](https://github.com/elizabethygonz/Allura_One_Oracle_Next_Education/tree/main/3_Lógica_de_programación_Practicando_con_juegos_y_animaciones)
 
 ### Gracias al Instructor
 Christian Velasco,  Instructor Allura Oracle ONE Next Education
