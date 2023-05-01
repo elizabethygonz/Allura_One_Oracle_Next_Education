@@ -1,0 +1,13 @@
+
+<canvas width="600" height="400"> </canvas>
+
+<script>
+	var pantalla = document.querySelector("canvas");//Puedo usar comillas dobles o simples
+	var pincel = pantalla.getContext("2d");//Pincel se encarga de dibujar
+
+	pincel.fillStyle = "green";   //propiedad
+	pincel.fillRect(0,0,200,400); //función
+
+	pincel.fillStyle = "red";   //propiedad
+	pincel.fillRect(400,0,200,400); //función
+</script>
