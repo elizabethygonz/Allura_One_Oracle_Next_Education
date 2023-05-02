@@ -1,12 +1,14 @@
 <canvas width="600" height="400"> </canvas>
 
 <script>
+	//Variables de creacion de pantalla
 	var pantalla = document.querySelector("canvas");
-	var pincel = pantalla.getContext("2d");		
+	var pincel = pantalla.getContext("2d");	
+	//Estilo de pantalla y propiedades 	
 	pincel.fillStyle = "lightgrey";
 	pincel.fillRect(0,0,600,400); 
-
-
+    //Definición de funciones 
+    //Función dibujar circulo con propiedades
 
 	function disenharCircunferencia(x,y,radio){
 		pincel.fillStyle = "blue";
@@ -14,6 +16,7 @@
 		pincel.arc(x,y,radio,0,2*Math.PI);
 		pincel.fill();
 	}	
+	//Funcion limpiar
 
 	function limpiarPantalla(){
 
@@ -23,13 +26,14 @@
 
 	var x = 0
 
+    //Funcion desplazar
 	function actualizarPantalla(){
 
 		limpiarPantalla();
 		disenharCircunferencia(x,20,10);
 		x++;
 	}
-
+     //Intervalos de tiempo para función 
 	setInterval(actualizarPantalla,100);
 
 </script> 
