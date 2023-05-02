@@ -1,15 +1,18 @@
 <canvas width="600" height="400"> </canvas>
 
 <script>
+	//Variables de creacion de pantalla
 	var pantalla = document.querySelector("canvas");
-	var pincel = pantalla.getContext("2d");		
+	var pincel = pantalla.getContext("2d");	
+	//Estilo de pantalla y propiedades 	
 	pincel.fillStyle = "lightgrey";
 	pincel.fillRect(0,0,600,400); 
-
+    //Definición de variables
 	var radio = 10;
 	var xAleatorio;
 	var yAleatorio;
-
+    //Definición de funciones 
+    //Función dibujar circulo con propiedades
 	function disenharCircunferencia(x,y,radio, color){
 		pincel.fillStyle = color;
 		pincel.beginPath();
@@ -17,7 +20,8 @@
 		pincel.fill();
 	}	
 
-	function limpiarPantalla(){
+    //Funcion limpiar 
+ 	function limpiarPantalla(){
 
 		pincel.clearRect(0,0,600,400);
 
@@ -25,7 +29,7 @@
 
 	var x = 0
 
-
+    //Función diseñar blanco
 	function disenharObjetivo(x,y){
 
 		disenharCircunferencia(x,y,radio + 20,"red");
@@ -33,14 +37,14 @@
 		disenharCircunferencia(x,y,radio,"red");
 	}
 
-	
+	//Funcion posicion random
 	function sortearPosicion(maximo){
 
 		return Math.floor(Math.random()*maximo);
 
 	}
 
-
+   //Función desplazar blanco
 	function actualizarPantalla(){
 
 		limpiarPantalla();
@@ -49,9 +53,9 @@
 		disenharObjetivo(xAleatorio,yAleatorio);
 		x++;
 	}
-	
+	//Intervalos de tiempo para función 
 	setInterval(actualizarPantalla,1000);
-
+     //Función disparar blanco
 	function disparar(evento){
 
 		var x = evento.pageX - pantalla.offsetLeft;
@@ -64,7 +68,7 @@
 			alert("Tiro Certero");
 		}
 	}
-
+    //Asignar función a evento
 	pantalla.onclick = disparar;
 
 </script> 
