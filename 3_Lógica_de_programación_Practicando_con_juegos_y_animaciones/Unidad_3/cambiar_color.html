@@ -1,13 +1,17 @@
 <canvas width="600" height="400"> </canvas>
 
 <script>
+    //Variables de creacion de pantalla
     var pantalla = document.querySelector("canvas");
-    var pincel = pantalla.getContext("2d");    
+    var pincel = pantalla.getContext("2d");   
+    //Estilo de pantalla y propiedades 
     pincel.fillStyle = "grey";
     pincel.fillRect(0,0,600,400); 
+    //Definición de variables
     var colores = ["blue", "red", "green"];
     var indiceColorActual = 0; // comienza con blue
-
+    //Definición de funciones 
+    //Funcion dibujar circulo
     function dibujarCirculo(evento){
         var x = evento.pageX - pantalla.offsetLeft;
         var y = evento.pageY - pantalla.offsetTop;    
@@ -17,9 +21,10 @@
         pincel.fill();
         console.log(x + "," + y);        
     }
-
+     //Asignar funcion a evento
     pantalla.onclick = dibujarCirculo;
 
+    //Funcion cambiar color
     function alterarColor() {
         indiceColorActual++;
         if(indiceColorActual>= colores.length) {
@@ -27,7 +32,7 @@
         }
         return false; //menú contextual padrón de `canvas` no sea exhibido
     }
-
+  //Asignar funcion a evento
     pantalla.oncontextmenu = alterarColor;
 
 </script> 
