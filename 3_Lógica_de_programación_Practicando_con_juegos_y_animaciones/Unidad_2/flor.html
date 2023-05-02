@@ -1,12 +1,14 @@
 <canvas width="600" height="400"></canvas>
 
 <script>
-
-    var pantalla = document.querySelector("canvas");
-    var pincel = pantalla.getContext("2d");
-    pincel.fillStyle = "lightgray";
-    pincel.fillRect(0, 0, 600, 400);
-
+	//Variables de creacion de pantalla
+	var pantalla = document.querySelector("canvas");
+	var pincel = pantalla.getContext("2d");	
+	//Estilo de pantalla y propiedades 	
+	pincel.fillStyle = "lightgrey";
+	pincel.fillRect(0,0,600,400); 
+    //Definición de funciones
+    //Función dibujar circulo con propiedades
     function dibujarCirculo(x, y, radio, color) {
 
         pincel.fillStyle = color;
@@ -14,6 +16,7 @@
         pincel.arc(x, y, radio, 0, 2*3.14);
         pincel.fill();
     }
+    //Función dibujar circulo en posición usando función de circulos
     function dibujarFlor(x,y) {
     dibujarCirculo(x, y+20, 10, "blue");
     dibujarCirculo(x, y, 10, "red");
