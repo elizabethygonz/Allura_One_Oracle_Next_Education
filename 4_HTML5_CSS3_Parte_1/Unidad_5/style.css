@@ -1,0 +1,43 @@
+body{
+
+}
+#banner{
+    width: 100%;
+}
+.principal{
+    background: #CCCCCC;
+}
+
+h1{ 
+    text-align: center;
+    height: 150px;
+    border: 10px solid #000000;
+    padding: 20px;
+    margin: 40px;
+}
+p{
+    text-align: center;  
+}
+strong em{
+    color: red;
+}
+#mision{
+    font-size: 20px;
+}
+
+.diferenciales{
+    background: #FFFFFF;
+}
+h2{ 
+    text-align: center;
+    height: 150px;
+    border: 10px solid #000000;
+    padding: 20px;
+    margin: 40px;
+}
+.items{
+    font-style: italic;
+}
+.imagen-dif{
+    width: 50%;
+}
