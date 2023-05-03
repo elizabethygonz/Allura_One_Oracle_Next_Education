@@ -6,6 +6,7 @@ body{
 }
 .principal{
     background: #CCCCCC;
+    padding: 20px;
 }
 
 h1{ 
@@ -27,17 +28,20 @@ strong em{
 
 .diferenciales{
     background: #FFFFFF;
+    padding: 30px;
 }
 h2{ 
     text-align: center;
-    height: 150px;
-    border: 10px solid #000000;
-    padding: 20px;
-    margin: 40px;
 }
 .items{
     font-style: italic;
 }
-.imagen-dif{
-    width: 50%;
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+.imagendif{
+    width: 25%;
 }
