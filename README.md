@@ -13,7 +13,7 @@ Cursos de Lógica de Programación:
 5. [HTML5 y CSS3 parte 2: Posicionamiento, listas y navegación](https://github.com/elizabethygonz/Allura_One_Oracle_Next_Education/tree/main/5_HTML5_CSS3_Parte_2)
 6. [HTML5 y CSS3 parte 3: Trabajando con formularios y tablas](https://github.com/elizabethygonz/Allura_One_Oracle_Next_Education/tree/main/6_HTML5_CSS3_Parte_3)
 7. [HTML5 y CSS3 parte 4: Avanzando en CSS](https://github.com/elizabethygonz/Allura_One_Oracle_Next_Education/tree/main/7_HTML5_CSS3_Parte_4)
-
+8. [Git y GitHub: controle y comparta su código](https://github.com/elizabethygonz/Allura_One_Oracle_Next_Education/tree/main/8_Git_y_Github)
 En este repositorio encontrarás respuestas y código explicado para cada tarea del curso.
 
 
